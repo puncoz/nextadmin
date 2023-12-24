@@ -1,0 +1,40 @@
+.container {
+    @apply sticky top-10
+}
+
+.user {
+    @apply flex items-center gap-5 mb-5
+}
+
+.userImage {
+    @apply rounded-full
+}
+
+.userDetail {
+    @apply flex flex-col
+}
+
+.username {
+    @apply font-medium
+}
+
+.userTitle {
+    @apply text-xs text-clr-text-soft
+}
+
+.list {
+    @apply list-none
+}
+
+.category {
+    @apply text-clr-text-soft font-bold text-xs my-2.5 mx-0
+}
+
+.logout {
+    @apply flex items-center p-5 gap-2.5 my-1.5 rounded-[0.625rem];
+    @apply bg-none border-none w-full
+}
+
+.logout:hover {
+    @apply bg-[#2e374a]
+}

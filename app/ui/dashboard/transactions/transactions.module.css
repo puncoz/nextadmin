@@ -1,0 +1,40 @@
+.container {
+    @apply bg-clr-bg-soft p-5 rounded-[0.625]
+}
+
+.title {
+    @apply mb-5 font-extralight text-2xl text-clr-text-soft
+}
+
+.table {
+    @apply w-full
+}
+
+.table th,
+.table td {
+    @apply p-2.5 text-left
+}
+
+.user {
+    @apply flex gap-2.5 items-center
+}
+
+.userImage {
+    @apply object-cover rounded-full
+}
+
+.status {
+    @apply rounded-[0.3125rem] p-1.5 text-sm text-clr-text capitalize
+}
+
+.pending {
+    @apply bg-[#f7cb7375]
+}
+
+.done {
+    @apply bg-[#afd6ee75]
+}
+
+.cancelled {
+    @apply bg-[#f7737375]
+}

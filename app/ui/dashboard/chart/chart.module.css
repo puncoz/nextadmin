@@ -1,0 +1,7 @@
+.container {
+    @apply h-[30rem] bg-clr-bg-soft p-5 rounded-[0.625rem]
+}
+
+.title {
+    @apply mb-5 font-extralight text-2xl text-clr-text-soft
+}

@@ -1,0 +1,30 @@
+.container {
+    @apply bg-clr-bg-soft p-5 rounded-[0.625rem] flex gap-5 cursor-pointer w-full
+}
+.container:hover {
+    @apply bg-[#2e374a]
+}
+
+.texts {
+    @apply flex flex-col gap-5
+}
+
+.title {
+
+}
+
+.number {
+    @apply text-2xl font-medium
+}
+
+.detail {
+    @apply text-sm font-light
+}
+
+.positive {
+    @apply text-green-500
+}
+
+.negative {
+    @apply text-red-500
+}

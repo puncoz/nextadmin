@@ -1,0 +1,26 @@
+.container {
+    @apply flex items-center justify-between p-5 rounded-[0.625rem] bg-clr-bg-soft
+}
+
+.title {
+    @apply text-clr-text-soft font-bold capitalize
+}
+
+.menu {
+    @apply flex items-center gap-5
+}
+
+.search {
+    @apply flex items-center gap-2.5 bg-[#2e374a] p-2.5 rounded-[0.625rem]
+}
+
+.search input {
+    @apply bg-transparent border-none text-clr-text
+}
+.search input:focus {
+    @apply outline-none
+}
+
+.icons {
+    @apply flex gap-5
+}

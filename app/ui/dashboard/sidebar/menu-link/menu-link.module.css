@@ -1,0 +1,7 @@
+.container {
+    @apply flex items-center p-5 gap-2.5 my-1.5 rounded-[0.625rem]
+}
+
+.container:hover, .active {
+    @apply bg-[#2e374a]
+}

@@ -1,0 +1,27 @@
+.container {
+    @apply flex
+}
+
+.menu {
+    @apply flex-1 bg-clr-bg-soft p-5
+}
+
+.content {
+    @apply flex-[4] p-5
+}
+
+.wrapper {
+    @apply flex gap-5 my-2.5
+}
+
+.main {
+    @apply flex-[3] flex flex-col gap-5
+}
+
+.cards {
+    @apply flex gap-5 justify-between
+}
+
+.rightBar {
+    @apply flex-1
+}

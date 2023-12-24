@@ -1,0 +1,31 @@
+.container {
+    @apply fixed
+}
+
+.item {
+    @apply relative bg-gradient-to-t from-[#182237] to-[#253352] py-5 px-6 rounded-[0.625rem] mb-5
+}
+
+.bgContainer {
+    @apply absolute bottom-0 right-0 w-[50%] h-[50%]
+}
+
+.bg {
+    @apply object-contain opacity-20
+}
+
+.text {
+    @apply flex flex-col gap-6
+}
+
+.notification {
+    @apply font-bold
+}
+
+.title {
+    @apply font-medium text-xs text-clr-text-soft
+}
+
+.button {
+    @apply p-2.5 flex items-center gap-2.5 bg-[#5d57c9] text-clr-text border-none rounded-[0.3125rem] cursor-pointer w-max
+}
