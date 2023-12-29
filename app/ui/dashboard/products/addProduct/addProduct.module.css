@@ -1,0 +1,26 @@
+.container {
+    @apply bg-clr-bg-soft p-5 rounded-[0.625rem] mt-5
+}
+
+.form {
+    @apply flex flex-wrap justify-between
+}
+
+.form input,
+.form select,
+.form textarea {
+    @apply rounded-[0.3125rem] p-7 bg-transparent text-clr-text mb-7 border-2 border-[#2e374a]
+}
+
+.form input,
+.form select {
+    @apply w-[48%]
+}
+
+.form textarea {
+    @apply w-full
+}
+
+.form button {
+    @apply w-full p-7 bg-[teal] text-clr-text border-none rounded-[0.3125rem] cursor-pointer
+}

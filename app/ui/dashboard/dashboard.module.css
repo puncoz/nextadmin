@@ -3,7 +3,7 @@
 }
 
 .menu {
-    @apply flex-1 bg-clr-bg-soft p-5
+    @apply flex-1 bg-clr-bg-soft p-5 min-h-screen
 }
 
 .content {
