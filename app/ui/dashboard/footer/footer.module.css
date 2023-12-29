@@ -1,0 +1,11 @@
+.container {
+    @apply flex items-center justify-between mt-8 text-clr-text-soft
+}
+
+.logo {
+    @apply font-bold
+}
+
+.copyright {
+    @apply text-xs
+}
