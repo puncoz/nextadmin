@@ -1,0 +1,44 @@
+.container {
+    @apply bg-clr-bg-soft p-5 rounded-[0.625rem] mt-5
+}
+
+.top {
+    @apply flex items-center justify-between
+}
+
+.addButton {
+    @apply p-2.5 bg-[#5d57c9] text-clr-text border-none rounded-[0.3125rem] cursor-pointer
+}
+
+.table {
+    @apply w-full
+}
+
+.table th,
+.table td {
+    @apply p-2.5 text-left
+}
+
+.product {
+    @apply flex gap-2.5 items-center
+}
+
+.productImage {
+    @apply object-cover rounded-full
+}
+
+.buttons {
+    @apply flex gap-2.5
+}
+
+.button {
+    @apply py-1.5 px-2.5 rounded-[0.3125rem] text-clr-text border-none cursor-pointer
+}
+
+.view {
+    @apply bg-[teal]
+}
+
+.delete {
+    @apply bg-[crimson]
+}

@@ -1,0 +1,11 @@
+.container {
+    @apply p-2.5 flex justify-between
+}
+
+.button {
+    @apply py-1.5 px-2.5 cursor-pointer rounded-[0.3125rem] text-slate-700 border-none bg-slate-300 text-xs
+}
+
+.button:disabled {
+    @apply cursor-not-allowed
+}

@@ -1,0 +1,11 @@
+.container {
+    @apply flex items-center gap-2.5 bg-[#2e374a] p-2.5 rounded-[0.625rem] w-max
+}
+
+.container input {
+    @apply bg-transparent border-none text-clr-text
+}
+
+.container input:focus {
+    @apply outline-none
+}
